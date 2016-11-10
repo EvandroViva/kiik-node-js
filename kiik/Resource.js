@@ -102,13 +102,16 @@ Resource.prototype.request = function(path=null, params={}, method='GET', header
                 case 422:
                 case 405:
                     console.log("Method Not Allowed".red)
+                    completion(null)
                     break
                 case 404:
                     console.log("TODO: error")
+                    completion(null)
                     break
             }
         } else {
             console.log("TODO: error".red);
+            completion(null)
       }
   });
 }
