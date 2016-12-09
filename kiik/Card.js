@@ -1,6 +1,6 @@
 "use strict"
 
-var Resource = require('./resource.js');
+var Resource = require('./Resource.js');
 var Create = require('./rest/create.js');
 var Delete = require('./rest/delete.js');
 var Get = require('./rest/get.js');

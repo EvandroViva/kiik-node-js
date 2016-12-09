@@ -1,6 +1,6 @@
 "use strict"
 
-var Resource = require('./resource.js');
+var Resource = require('./Resource.js');
 var Get = require('./rest/get.js');
 var GetAll = require('./rest/get_all.js');
 
