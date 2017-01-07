@@ -10,8 +10,8 @@ var config = {
         'version': '0.3'
     },
     'staging': {
-        'host': 'https://api.kiik.com',
-        'api_key': 'B31DCE74-E768-43ED-86DA-85501612548F',
+        'host': 'https://staging-api.kiik.com/',
+        'api_key': process.env.KIIK_API_KEY || 'B31DCE74-E768-43ED-86DA-85501612548F',
         'version': '0.3'
     },
     'production': {
